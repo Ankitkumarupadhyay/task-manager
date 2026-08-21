@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/.venv/
+backend/venv/
+backend/env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+
+# Production builds
+frontend/dist/
+frontend/build/
+
+# Environment & local secrets
+.env
+.env.local
+.env.*.local
+backend/.env
+
+# Databases & SQLite local test DBs
+*.db
+*.sqlite
+*.sqlite3
+backend/test.db
+
+# OS / Editor files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker volume logs
+*.log
